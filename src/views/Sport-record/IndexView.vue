@@ -40,18 +40,18 @@
       </v-row>
     </div>
 
-    <AllRecord></AllRecord>
+    <allRecord></allRecord>
   </v-container>
 </template>
 
 <script>
-import AllRecord from "@/components/Sport-record/historyCompont.vue";
+import allRecord from "@/components/Sport-record/historyCompont.vue";
 
 export default {
   name:'AllRecord',
 
   components: {
-    AllRecord,
+    allRecord,
   },
 };
 </script>
